@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const App = () => {
 
@@ -6,6 +6,10 @@ const App = () => {
 	const changeFunction = () => {
 		setCount(prevCount => prevCount + 1);
 	}
+
+	useEffect(() => {
+		/** */
+	});
 
 	return (
 		<div>
